@@ -2,6 +2,7 @@ package com.vivid.courseval;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -80,6 +81,8 @@ public class MainActivity extends Activity {
                 android.os.Process.killProcess(android.os.Process.myPid());
             }
         });
+
+        Typeface keys = Typeface.createFromAsset(getAssets(), getString(R.string.awesome));
 
         btnRefresh = (ImageView) findViewById(R.id.btnRefresh);
         btnRefresh.setOnClickListener(new View.OnClickListener() {

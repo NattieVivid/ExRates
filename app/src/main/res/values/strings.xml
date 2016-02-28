@@ -2,6 +2,7 @@
     <string name="app_name">Exchange rates Ukraine (uah)</string>
     <color name="white">#FFFFFF</color>
     <color name="grey">#333333</color>
+    <string name="awesome">fonts/fontawesome-webfont.ttf</string>
     <string name="title_activity_information">Information</string>
     <string name="course_val">Exchange rates (uah)</string>
     <string name="buy_curr">Buy</string>
