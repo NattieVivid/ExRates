@@ -6,7 +6,6 @@ import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -43,11 +42,6 @@ public class MainActivity extends Activity {
     TextView tvRUBBuyNBU;
     TextView tvRUBSellNBU;
 
-    ImageView btnRefresh;
-
-    ImageView btnExit;
-    ImageView btnAbout;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,35 +68,44 @@ public class MainActivity extends Activity {
         tvRUBBuyNBU = (TextView) findViewById(R.id.tvRUBBuyNBU);
         tvRUBSellNBU = (TextView) findViewById(R.id.tvRUBSellNBU);
 
-        btnExit = (ImageView) findViewById(R.id.btnExit);
-        btnExit.setOnClickListener(new View.OnClickListener() {
+
+        Typeface keys = Typeface.createFromAsset(getAssets(), "fontawesome-webfont.ttf");
+        TextView exit = (TextView) findViewById(R.id.exit);
+        exit.setTypeface(keys);
+
+        TextView ic_usd = (TextView) findViewById(R.id.ic_usd);
+        ic_usd.setTypeface(keys);
+
+        TextView ic_euro = (TextView) findViewById(R.id.ic_euro);
+        ic_euro.setTypeface(keys);
+
+        TextView ic_rub = (TextView) findViewById(R.id.ic_rub);
+        ic_rub.setTypeface(keys);
+
+
+        exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 android.os.Process.killProcess(android.os.Process.myPid());
             }
         });
 
-        Typeface keys = Typeface.createFromAsset(getAssets(), getString(R.string.awesome));
-        // .setTypeface(keys);
-        TextView exit = (TextView) findViewById(R.id.exit);
-        exit.setTypeface(keys);
-
-
-
-        btnRefresh = (ImageView) findViewById(R.id.btnRefresh);
+        TextView btnRefresh = (TextView) findViewById(R.id.btnRefresh);
+        btnRefresh.setTypeface(keys);
         btnRefresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 new JSONTask().execute("http://openrates.in.ua/rates");
-                Toast toast = Toast.makeText(getApplicationContext(), "Данi оновленo!",
+                Toast toast = Toast.makeText(getApplicationContext(), getString(R.string.refreshed_info),
                         Toast.LENGTH_SHORT);
                 toast.show();
 
             }
         });
 
-        btnAbout = (ImageView) findViewById(R.id.btnAbout);
-        btnAbout.setOnClickListener(new View.OnClickListener() {
+        TextView btnInfo = (TextView) findViewById(R.id.btnInfo);
+        btnInfo.setTypeface(keys);
+        btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Information.class);
@@ -113,6 +116,7 @@ public class MainActivity extends Activity {
         if (getIntent().getBooleanExtra("EXIT", false)) {
             android.os.Process.killProcess(android.os.Process.myPid());
         }
+
     }
 
     public class JSONTask extends AsyncTask<String , String , String > {

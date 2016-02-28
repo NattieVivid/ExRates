@@ -11,4 +11,5 @@
     <string name="info2">Для корректной работы приложения необходим доступ к сети Интернет.</string>
     <string name="info3">Разработчик: Nattie Vivid</string>
     <string name="infor_title">Курсы валют v. 1.0</string>
+    <string name="refreshed_info">Данные обновлены</string>
 </resources>

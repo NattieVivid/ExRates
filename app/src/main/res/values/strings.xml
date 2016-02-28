@@ -2,12 +2,24 @@
     <string name="app_name">Exchange rates Ukraine (uah)</string>
     <color name="white">#FFFFFF</color>
     <color name="grey">#333333</color>
-    <string name="awesome">fonts/fontawesome-webfont.ttf</string>
+    <color name="orange">#f9a825</color>
+    <color name="green">#00c853</color>
+    <color name="blue">#1565c0</color>
+
+    <string name="icon_power_off" translatable="false">&#xf011;</string>
+    <string name="icon_info_circle" translatable="false">&#xf05a;</string>
+    <string name="icon_refresh" translatable="false">&#xf021;</string>
+    <string name="icon_usd" translatable="false">&#xf155;</string>
+    <string name="icon_rub" translatable="false">&#xf158;</string>
+    <string name="icon_euro" translatable="false">&#xf153;</string>
+    <string name="icon_back" translatable="false">&#xf112;</string>
+
     <string name="title_activity_information">Information</string>
     <string name="course_val">Exchange rates (uah)</string>
     <string name="buy_curr">Buy</string>
     <string name="sell_curr">Sell</string>
     <string name="interbank">Interbank</string>
+    <string name="refreshed_info">Data refreshed</string>
     <string name="nbu">NBU</string>
     <string name="info_title" />
     <string name="info1">The application allows you to view the rates on the interbank market and NBU automatically.</string>
