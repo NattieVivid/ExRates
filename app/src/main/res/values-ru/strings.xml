@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Курсы валют Украина</string>
+    <string name="buy_curr">Покупка</string>
+    <string name="course_val">Курсы валют</string>
+    <string name="interbank">Межбанк</string>
+    <string name="nbu">НБУ</string>
+    <string name="sell_curr">Продажа</string>
+    <string name="title_activity_information">Информация</string>
+    <string name="info1">Приложение позволяет просматривать курсы валют НБУ и Межбанка в автоматическом режиме.</string>
+    <string name="info2">Для корректной работы приложения необходим доступ к сети Интернет.</string>
+    <string name="info3">Разработчик: Nattie Vivid</string>
+    <string name="infor_title">Курсы валют v. 1.0</string>
+</resources>

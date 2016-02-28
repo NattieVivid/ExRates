@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Курси валют Україна</string>
+    <string name="buy_curr">Купiвля</string>
+    <string name="course_val">Курси валют</string>
+    <string name="interbank">Мiжбанк</string>
+    <string name="nbu">НБУ</string>
+    <string name="sell_curr">Продаж</string>
+    <string name="title_activity_information">Iнформацiя</string>
+    <string name="info1">Додаток надає можливість перегляду курсів валют НБУ та Міжбанку в автоматичному режимі.</string>
+    <string name="info2">Для коректної роботи додатку необхідний доступ до мережі Інтернет.</string>
+    <string name="info3">Розробник: Nattie Vivid</string>
+    <string name="info_title"></string>
+    <string name="infor_title">Курси валют v. 1.0</string>
+</resources>

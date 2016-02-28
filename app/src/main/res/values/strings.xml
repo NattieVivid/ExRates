@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exchange rates Ukraine (uah)</string>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#333333</color>
+    <string name="title_activity_information">Information</string>
+    <string name="course_val">Exchange rates (uah)</string>
+    <string name="buy_curr">Buy</string>
+    <string name="sell_curr">Sell</string>
+    <string name="interbank">Interbank</string>
+    <string name="nbu">NBU</string>
+    <string name="info_title" />
+    <string name="info1">The application allows you to view the rates on the interbank market and NBU automatically.</string>
+    <string name="info2">The application requires access to the Internet.</string>
+    <string name="info3">Developed by: Nattie Vivid</string>
+    <string name="info4" translatable="false">Skype: nattie_vivid</string>
+    <string name="info5" translatable="false">E-mail: nattie.vivid@gmail.com</string>
+    <string name="infor_title">Exchange rates v. 1.0</string>
+
+</resources>
