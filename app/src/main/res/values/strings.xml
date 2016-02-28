@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Exchange rates Ukraine (uah)</string>
-    <color name="white">#FFFFFF</color>
-    <color name="grey">#333333</color>
-    <color name="orange">#f9a825</color>
-    <color name="green">#00c853</color>
-    <color name="blue">#1565c0</color>
+    <color name="white">#bdc3c7</color>
+    <color name="grey">#2c3e50</color>
+    <color name="orange">#e67e22</color>
+    <color name="green">#27ae60</color>
+    <color name="blue">#3498db</color>
 
     <string name="icon_power_off" translatable="false">&#xf011;</string>
     <string name="icon_info_circle" translatable="false">&#xf05a;</string>
