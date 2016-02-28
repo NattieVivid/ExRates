@@ -52,9 +52,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//test
-
-
        /* Toast toast = Toast.makeText(getApplicationContext(), Locale.getDefault().getLanguage(),
                 Toast.LENGTH_SHORT);
         toast.show();*/
